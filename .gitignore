@@ -1,0 +1,33 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+
+# Model files (optional: if you don't want to push large models)
+model/*.joblib
+
+# Docker files (optional: sometimes ignored if you want clean repo)
+# docker-compose.override.yml
+
+# VSCode settings (optional)
+.vscode/
